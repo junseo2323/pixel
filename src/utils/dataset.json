@@ -1,0 +1,24 @@
+{
+    "jinu": {
+        "id" : 1,
+        "name" : "JINU",
+        "korname" : "지누",
+        "fullname" : "김진우",
+        "instagram" : "https://www.instagram.com/j1._.1nu",
+        "chzzk": "https://cafe.naver.com/jinu6734",
+        "fancafe": "https://cafe.naver.com/jinu6734",
+        "youtube": "https://www.youtube.com/@JINU6734",
+        "birthday": "1995.08.02"
+    },
+    "cham2": {
+        "id" : 2,
+        "name" : "CHAM2",
+        "korname" : "탬탬버린",
+        "fullname" : "김점례",
+        "instagram" : "",
+        "chzzk": "https://chzzk.naver.com/a7e175625fdea5a7d98428302b7aa57f",
+        "fancafe": "https://cafe.naver.com/2chamcham2",
+        "youtube": "https://www.youtube.com/@chamcham2",
+        "birthday": "1994.05.20"
+    }
+}
