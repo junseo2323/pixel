@@ -8,7 +8,14 @@
         "chzzk": "https://cafe.naver.com/jinu6734",
         "fancafe": "https://cafe.naver.com/jinu6734",
         "youtube": "https://www.youtube.com/@JINU6734",
-        "birthday": "1995.08.02"
+        "birthday": "1995.08.02",
+        "cafe" : [
+            {
+                "title": "김진우 마우스 장패드 수요조사",
+                "url": "https://cafe.naver.com/jinu6734/21068",
+                "date": "2024-02-20"
+            }
+        ]
     },
     "cham2": {
         "id" : 2,

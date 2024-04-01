@@ -112,7 +112,7 @@ export default function Youtube() {
                                 className="w-[32rem]  bg-gray-500 m-10 mx-auto mb-0"
                             />
                         </Link>
-\                      <p className="text-xs ml-6">{videos[0]?videos[0].title:<></>}</p>
+                        <p className="text-xs ml-6">{videos[0]?videos[0].title:<></>}</p>
                         <p className="text-xs ml-6">{videos[1]?videos[1].title:<></>}</p>
                         <p className="text-xs ml-6">{videos[0]?videos[0].date.slice(0,10):<></>}</p>
                         <p className="text-xs ml-6">{videos[1]?videos[1].date.slice(0,10):<></>}</p>

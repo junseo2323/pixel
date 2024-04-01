@@ -11,15 +11,20 @@ import down_arrow from "../../../../public/bdown_arrow.svg"
 
 import { usePathname } from 'next/navigation'
 
+
 export default function Chzzk() {
     const pathname = usePathname()
     const streammer = (pathname.split('/'))[1];
     let data: any;
     if(streammer === 'jinu')  {
         data = dataset.jinu;
+        data['live'] = '2086f44c7b09a17cef6786f21389db3b'
+        data['chzzkfollow'] = '97K'
     }
     else if(streammer === 'cham2'){
         data =dataset.cham2;
+        data['live'] = 'a7e175625fdea5a7d98428302b7aa57f'
+        data['chzzkfollow'] = '206K'
     }
     else data = dataset.jinu;
     const nextpath = "/"+streammer+"/fancafe";
@@ -37,7 +42,7 @@ export default function Chzzk() {
                     className=""
                     />
                 </Link>
-
+ 
 
                 <div className="fixed bottom-24 rotate-90 flex w-32">
                     <p className="">{data.id.toString().padStart(2,'0')}</p>
@@ -59,12 +64,10 @@ export default function Chzzk() {
                         width={28}
                         className="mx-auto mt-4"
                     />
-                    <p className="text-center font-thin mt-4">204K</p>
+                    <p className="text-center font-thin mt-4">{data.chzzkfollow}</p>
                 </div>
-
-                <div className="mx-auto w-[863px] h-[486px] bg-gray-500 mt-20">
-                    치지직 실시간 방송화면
-                </div>
+                
+                <iframe src={"https://chzzk.naver.com/live/"+data.live} className="mx-auto w-[863px] h-[486px] bg-gray-500 mt-20" width="853px" height="486px"></iframe>
 
 
             </div>

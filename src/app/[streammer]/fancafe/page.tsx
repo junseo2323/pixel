@@ -17,9 +17,11 @@ export default function Fancafe() {
     let data: any;
     if(streammer === 'jinu')  {
         data = dataset.jinu;
+        data['fancafemember'] = '24K';
     }
     else if(streammer === 'cham2'){
         data = dataset.cham2;
+        data['fancafemember'] = '33K';
     }
     else data = dataset.jinu;
     const nextpath = "/"+streammer+"/schedule";
@@ -59,7 +61,7 @@ export default function Fancafe() {
                         width={28}
                         className="mt-[0.8rem] float-left"
                     />
-                    <p className="font-thin mt-4 ml-10">32K</p>
+                    <p className="font-thin mt-4 ml-10">{data.fancafemember}</p>
                 </div>
 
                 <div className="mx-auto grid grid-rows-5 w-[863px] h-[486px] border-t border-b border-solid border-black mt-20">
