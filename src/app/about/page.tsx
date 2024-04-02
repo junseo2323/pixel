@@ -16,7 +16,7 @@ export default function About() {
                 />
 
                 <h1 className="text-3xl text-center mt-10">크리에이터 자신의 브랜드 가치를 온전히 인정받을 수 있도록</h1>
-                <p className="text-ms text-center font-thin mt-10">픽셀네트워크는 '크리에이터 자신의 브랜드 가치를 온전히 인정받을 수 있도록' 하고자 설립된 회사입니다.</p>
+                <p className="text-ms text-center font-thin mt-10">픽셀네트워크는 크리에이터 자신의 브랜드 가치를 온전히 인정받을 수 있도록 하고자 설립된 회사입니다.</p>
                 <p className="text-ms text-center font-thin">크리에이터가 직접 설립한 회사로 높은 신뢰도를 바탕으로 영향력 있는 크리에이터들이 뭉쳐있습니다.</p>
                 <p className="text-ms text-center font-thin mt-10">크리에이터가 콘텐츠 제작에만 집중할 수 있도록, 동시에 더 많은 수익을 창출할 수 있도록 돕는 것이 픽셀네트워크의 목표입니다.</p>
                 <p className="text-ms text-center font-thin">전문 디자이너와 MCN, 게임 업계 출신 인력들이 함께하고 있어 크리에이터에게는 온전한 브랜드 가치를, 파트너사에게는 긴밀한 솔루션을 제공합니다.</p>
