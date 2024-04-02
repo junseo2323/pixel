@@ -36,7 +36,7 @@ export default function JINU() {
   return (
     <div  className="text-white outer">
         <div className="absolute bg-black/35 w-screen h-screen">
-            <Nav />
+            <Nav color="white"/>
             <Link href={nextpath} className="fixed bottom-3 left-[50%] animate-bounce">
                 <Image 
                 src={down_arrow}

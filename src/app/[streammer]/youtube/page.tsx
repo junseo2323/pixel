@@ -97,19 +97,19 @@ export default function Youtube() {
                         <Link href={videos[0]?"https://www.youtube.com/watch?v="+videos[0].url:"https://www.youtube.com"}>
                             <Image 
                                 src={videos[0]?videos[0].thumbnail:''}
-                                alt="썸네일"
+                                alt=""
                                 width={420}
                                 height={120}
-                                className="w-[32rem]  bg-gray-500 m-10 mx-auto mb-0"
+                                className="w-[32rem]  bg-white m-10 mx-auto mb-0"
                             />
                         </Link>
                         <Link href={videos[1]?"https://www.youtube.com/watch?v="+videos[1].url:"https://www.youtube.com"}>
                             <Image 
                                 src={videos[1]?videos[1].thumbnail:''}
-                                alt="썸네일"
+                                alt=""
                                 width={420}
                                 height={120}
-                                className="w-[32rem]  bg-gray-500 m-10 mx-auto mb-0"
+                                className="w-[32rem]  bg-white m-10 mx-auto mb-0"
                             />
                         </Link>
                         <p className="text-xs ml-6">{videos[0]?videos[0].title:<></>}</p>
@@ -121,28 +121,28 @@ export default function Youtube() {
                         <Link href={videos[2]?"https://www.youtube.com/watch?v="+videos[2].url:"https://www.youtube.com"}>
                             <Image 
                                 src={videos[2]?videos[2].thumbnail:''}
-                                alt="썸네일"
+                                alt=""
                                 width={320}
                                 height={120}
-                                className="w-[26rem]  bg-gray-500 m-10 mx-auto mb-0"
+                                className="w-[26rem]  bg-white m-10 mx-auto mb-0"
                             />
                         </Link>
                         <Link href={videos[3]?"https://www.youtube.com/watch?v="+videos[3].url:"https://www.youtube.com"}>
                             <Image 
                                 src={videos[3]?videos[3].thumbnail:''}
-                                alt="썸네일"
+                                alt=""
                                 width={320}
                                 height={120}
-                                className="w-[26rem]  bg-gray-500 m-10 mx-auto mb-0"
+                                className="w-[26rem]  bg-white m-10 mx-auto mb-0"
                             />
                         </Link>
                         <Link href={videos[4]?"https://www.youtube.com/watch?v="+videos[4].url:"https://www.youtube.com"}>
                             <Image 
                                 src={videos[4]?videos[4].thumbnail:''}
-                                alt="썸네일"
+                                alt=""
                                 width={320}
                                 height={120}
-                                className="w-[26rem]  bg-gray-500 m-10 mx-auto mb-0"
+                                className="w-[26rem]  bg-white m-10 mx-auto mb-0"
                             />
                         </Link>
                         <p className="text-xs ml-6">{videos[2]?videos[2].title:<></>}</p>
@@ -152,6 +152,7 @@ export default function Youtube() {
                         <p className="text-xs ml-6">{videos[3]?videos[3].date.slice(0,10):<></>}</p>
                         <p className="text-xs ml-6">{videos[4]?videos[4].date.slice(0,10):<></>}</p>
 
+                        <div className="h-10 w-10"></div>
                     </div>
                 </div>
 
